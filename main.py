@@ -9,7 +9,7 @@ if __name__ == "__main__":
         case "nt": os.system("cls")
 
     print("SELAMAT DATANG DI PROGRAM")
-    print("DATABASE PERPUSTAKAAN")
+    print("PERPUSTAKAAN GACOR")
     print("=========================")
 
     # check database itu ada atau tidak
@@ -21,12 +21,13 @@ if __name__ == "__main__":
             case "nt": os.system("cls")
         
         print("SELAMAT DATANG DI PROGRAM")
-        print("DATABASE PERPUSTAKAAN")
+        print("PERPUSTAKAAN GACOR")
         print("=========================")
 
         print(f"1. Read Data")
         print(f"2. Create Data")
         print(f"3. Update Data")
+        print(f"4. Delete Data\n")
 
         user_option = input("Masukan opsi: ")
 
@@ -34,9 +35,10 @@ if __name__ == "__main__":
             case "1": CRUD.read_console()
             case "2": CRUD.create_console()
             case "3": CRUD.update_console()
+            case "4": CRUD.delete_console()
 
-        is_done = input("Udah Selesai (y/n)? ")
+        is_done = input("Apakah Selesai (y/n)? ")
         if is_done == "y" or is_done == "Y":
             break
 
-    print("Program berakhir, mksih yh")
+    print("Program Berakhir, mksh yhhh")
